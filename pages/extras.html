@@ -1,0 +1,14 @@
+<div
+  class="list-group-item list-group-item-action list-group-item-secondary"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+  v-for="(task, index) in tasks"
+  :key="'task' + index"
+  @click="mountTask(task)"
+>
+  <span>
+    <h2>Title : {{ task.title }}</h2>
+
+    <h4>Description : {{ task.description }}</h4>
+  </span>
+</div>

@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: 'FarAwayGalaxy';
+    src: url('/fonts/FarAwayGalaxy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
